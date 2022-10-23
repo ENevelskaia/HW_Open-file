@@ -33,4 +33,4 @@ def get_shop_list_by_dishes(dish_list, person_count):
     return ingredients_list
 
 menu = cook_book.keys()
-pprint.pprint(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 6))
+pprint.pprint(get_shop_list_by_dishes(menu, 6))
