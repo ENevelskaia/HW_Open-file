@@ -10,6 +10,7 @@ for f_1 in file_list:
 sorted_file_list = []
 for k in sorted(all_file_dict):
     sorted_file_list += all_file_dict[k]
+del all_file_dict    
 
 with open('final_file.txt', 'w', encoding='utf8') as file:
     file.writelines(sorted_file_list)
